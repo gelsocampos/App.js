@@ -1,0 +1,13 @@
+const Vagas = require('./Vagas');
+const Candidato = require('./Candidato');
+const lista = require('./lista');
+
+//simulador de compatibilidade com vaga front-end junior 
+class Simulador extends Candidato   {
+
+
+   
+class simulador {
+    constructor() {
+        this.listaDeVagas = new ListaDeVagas();
+    }
