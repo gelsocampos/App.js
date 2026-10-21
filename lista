@@ -1,0 +1,41 @@
+//vem do servidor de dados. fazer um setTimeout para simular o tempo de resposta do servidor
+
+const lista = [
+
+    {
+
+        empresa: "Empresa A",
+        vaga: "Desenvolvedor Frontend",
+        requisitos: ["JavaScript", "HTML", "CSS"],
+        salario: 5000,
+        localizacao: "São Paulo"
+
+    },
+
+    {
+
+        empresa: "Empresa B",
+        vaga: "Desenvolvedor Backend",
+        requisitos: ["Node.js", "Express", "MongoDB"],
+        salario: 6000,
+        localizacao: "Rio de Janeiro"
+    }
+
+    {
+        empresa: "Empresa C",
+        vaga: "Desenvolvedor Fullstack",
+        requisitos: ["JavaScript", "Node.js", "React"], 
+        salario: 8000,
+        localizacao: "Curitiba"
+    }
+
+    {
+        empresa: "Empresa D",
+        vaga: "Desenvolvedor Mobile",
+        requisitos: ["React Native", "JavaScript", "APIs"],
+        salario: 7000,
+        localizacao: "Belo Horizonte"
+    }
+]
+
+module.exports = lista;
